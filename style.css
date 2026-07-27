@@ -10,6 +10,13 @@
     box-sizing: border-box;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+}
+
 body {
     margin: 0;
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -53,6 +60,7 @@ body {
 }
 
 main {
+    scroll-margin-top: 90px;
     padding: 40px 0;
 }
 
