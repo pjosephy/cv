@@ -129,7 +129,7 @@ html {
     position: sticky;
     top: 0;
     background: white;
-    padding: 16px 0;
+    padding: 0px 0;
     z-index: 100;
     border-bottom: 1px solid var(--border);
 }
